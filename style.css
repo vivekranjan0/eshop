@@ -230,7 +230,8 @@ input[type="email"] {
 
 button.submit {
     padding: 0.8em 2em;
-    background-color: #FF8E9E;
+    background-color: #D23369;
+    border-radius: 0.3em;
     color: #ffffff;
     border: none;
     font-size: 1em;
@@ -307,14 +308,6 @@ button.submit {
 }
 
 @media screen and (max-width: 800px) {
-    .newsletter-contact {
-        height: auto;
-        width: 100%;
-        padding-top: 6em 0em;
-        flex-wrap: wrap;
-        gap: 1em;
-    }
-
     .newsletter form {
         margin-left: 0;
     }
@@ -339,15 +332,39 @@ button.submit {
     .view-button {
         font-size: 4vw;
     }
-}
-@media screen and (max-width: 359px) {
+    
+    .newsletter-contact {
+        padding-left: 0.6em;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1.5em;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50vw;
+        padding: 1.3em 0em;
+    }
+
+    .newsletter form {
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    input[type="email"] {
+        width: 80vw;
+        font-size: 3vw;
+    }
+
     footer {
         height: auto;
     }
+
+}
+@media screen and (max-width: 359px) {
     button.submit {
         font-size: 3vw;
-    }
-    input[type="email"] {
-        font-size: 1.6vw;
     }
 }
