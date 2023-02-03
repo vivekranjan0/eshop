@@ -334,7 +334,7 @@ button.submit {
     }
     
     .newsletter-contact {
-        padding-left: 0.6em;
+        padding-left: 2.1em;
         justify-content: flex-start;
         flex-wrap: wrap;
         gap: 1.5em;
@@ -354,7 +354,7 @@ button.submit {
     }
 
     input[type="email"] {
-        width: 80vw;
+        width: 70vw;
         font-size: 3vw;
     }
 
